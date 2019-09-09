@@ -55,6 +55,7 @@ The data exploration of the demographics showed that passengers with the followi
 
 Fig.1 Survival rate with different demographic features
 
+
 ![Survival rate with different age, sex, and ticket class](https://github.com/Kilie/titanic_survival_prediction/blob/master/titanic.png)
 
 Fig. 2 Survival rate with different combinations of the demographic features
