@@ -31,13 +31,17 @@ This project is to analyze which of these demographic features made some passeng
 >> NumPy, pandas, matplotlib, seaborn, scikit-learn, LogisticRegression
 
 # File Description
-There are three files in this repository: 
+There are 5 files in this repository: 
 
 1. README.md provides some important information about the project.
 
 2. The titanic_survival_prediction.ipynb file includes the code for exploring the demographic features visualizing the relationships between these features and the survival rate in the train data.
 
 3. The machine_learning.ipynb contains code for applying LogisticRegression modeling to predict the survival in the test data.
+
+4. demo_features.png shows the relathionship between the survival rate and different demographic features.
+
+5. titanic.png shows how the survival rate changes with different combinations of the demographic features.
 
 # Results
 
