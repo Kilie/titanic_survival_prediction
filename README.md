@@ -26,10 +26,25 @@ This project is to analyze which of these demographic features made some passeng
 > Jupyter Notebook 6.0.0
 
 > Python 3.7:
->> NumPy, pandas, matplotlib, seaborn
+>> NumPy, pandas, matplotlib, seaborn, scikit-learn, LogisticRegression
 
 # File Description
 There are two files in this repository: one README file to provide some important information about the project and one titanic_survival_prediction.ipynb file which includes the code for analyzing the demographic features.  
+
+# Results
+
+The exploration of the demographics showed that passengers with the following features seemed more likely to survive: 
+
+1. Being in the 1st class (r=-0.34), 
+
+2. Being female, 
+
+3. Being 16 or younger.
+
+4. Having embarked at port C(Cherbourg) 
+
+
+
 
 # Contribution
 Any contribution to this project is very welcome!
