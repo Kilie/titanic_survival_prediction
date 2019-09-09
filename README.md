@@ -1,7 +1,9 @@
 # Titanic Survival Prediction - Machine Learning from Disaster
 On April 15, 1912, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. 
 
-The data of this project was obtained from [Kaggle](https://www.kaggle.com/c/titanic/overview), which contains such demographic information of the passengers on Titanic as their ages, genders, ticket classes, number of siblings/spouses on board, number of parents/children on board, tickect numbers, port of embarkation etc. A detailed list of the variables is as follows, which is also available [here](https://www.kaggle.com/c/titanic/data) on Kaggle.
+The data of this project was obtained from [Kaggle](https://www.kaggle.com/c/titanic/overview), which contains such demographic information of the passengers on Titanic as their ages, genders, ticket classes, number of siblings/spouses on board, number of parents/children on board, tickect numbers, port of embarkation etc. 
+
+A detailed list of the variables is as follows, which is also available [here](https://www.kaggle.com/c/titanic/data) on Kaggle.
 
 |Variable |Definition         |Key
 |:--------|:------------------|:-------------------------------------------------------|
@@ -39,7 +41,7 @@ There are three files in this repository:
 
 # Results
 
-The exploration of the demographics showed that passengers with the following features seemed more likely to survive: 
+The data exploration of the demographics showed that passengers with the following features seemed to have higher likelihood to survive: 
 
 1. Being in the 1st class (r=-0.34), 
 
@@ -49,8 +51,13 @@ The exploration of the demographics showed that passengers with the following fe
 
 4. Having embarked at port C(Cherbourg) 
 
+![Survival rate with different demographic features](https://github.com/Kilie/titanic_survival_prediction/blob/master/demo_features.png)
 
+Fig.1 Survival rate with different demographic features
 
+![Survival rate with different age, sex, and ticket class](https://github.com/Kilie/titanic_survival_prediction/blob/master/titanic.png)
+
+Fig. 2 Survival rate with different combinations of the demographic features
 
 # Contribution
 Any contribution to this project is very welcome!
