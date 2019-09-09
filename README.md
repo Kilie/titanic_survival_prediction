@@ -3,30 +3,22 @@ On April 15, 1912, the Titanic sank after colliding with an iceberg, killing 150
 
 The data of this project was obtained from [Kaggle](https://www.kaggle.com/c/titanic/overview), which contains such demographic information of the passengers on Titanic as their ages, genders, ticket classes, number of siblings/spouses on board, number of parents/children on board, tickect numbers, port of embarkation etc. A detailed list of the variables is as follows, which is also available [here](https://www.kaggle.com/c/titanic/data) on Kaggle.
 
-> Survived: Survival 0 = No, 1 = Yes
-
-> Pclass: Ticket class 1 = 1st, 2 = 2nd, 3 = 3rd
-
-> Sex: Sex
-
-> Age: Age in years
-
-> SibSp: Number of siblings / spouses aboard the Titanic
-
-> Parch: Number of parents / children aboard the Titanic
-
-> Ticket: Ticket number
-
-> Fare: Passenger fare
-
-> Cabin: Cabin number
-
-> Embarked: Port of Embarkation C = Cherbourg, Q = Queenstown, S = Southampton
+|Variable |Definition         |Key
+|:--------|:------------------|:-------------------------------------------------------|
+|survival |Survival	          |0 = No, 1 = Yes                   
+|pclass	  |Ticket class       |1 = 1st, 2 = 2nd, 3 = 3rd
+|sex	    |Sex	
+Age	      |Age in years	
+sibsp	    |# of siblings / spouses aboard the Titanic	
+parch	    |# of parents / children aboard the Titanic	
+ticket	  |Ticket number	
+fare	    |Passenger fare	
+cabin	    |Cabin number	
+embarked  |Port of Embarkation |C = Cherbourg, Q = Queenstown, S = Southampton
 
 *(Variable Notes:  pclass is a proxy for socio-economic status (SES). 1st = Upper, 2nd = Middle, 3rd =Lower)*
 
-This project is to analyze which of these demographic features made some passengers more likely to survive than others, and apply machine learning to predict the survival likelihood of Titanic passengers.
-
+This project is to analyze which of these demographic features made some passengers more likely to survive than others, and apply machine learning (logistic regression) to predict the survival likelihood of Titanic passengers.
 
 # Installation
 > Anaconda 3
